@@ -1,0 +1,34 @@
+# Arduino/ESP32 Build Files
+*. hex
+*.eep
+*.elf
+*.map
+*.o
+*.a
+build/
+*. ino. cpp
+
+# PlatformIO
+. pio/
+.vscode/
+.clang_complete
+.gcc-flags.json
+
+# IDE Files
+*. code-workspace
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary Files
+tmp/
+temp/
